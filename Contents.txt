@@ -1,0 +1,15 @@
+
+						Contents
+
+--------------------------------------------------------
+
+
+2		-	Course Introduction
+
+	2.5			-	Setting up the Development Environment
+
+5		-	Building a Model Using Code-first Workflow
+
+	5.2			-	Enabling Migration
+	5.3			-	Creating Domain Classes
+	5.4			-	Overriding Code-first Conventions
