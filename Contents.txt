@@ -13,3 +13,19 @@
 	5.2			-	Enabling Migration
 	5.3			-	Creating Domain Classes
 	5.4			-	Overriding Code-first Conventions
+
+6		-	Building a Form with Bootstrap
+
+	6.2			-	Adding a Basic View
+	6.3			-	Basics of Build Forms with Bootstrap
+	6.4			-	Extracting a View Model
+	6.5			-	Adding a Drop-down List
+	6.6			-	Adding a Bootstrap Button
+
+7		-	Saving Data
+
+	7.2			-	Limiting Access to Authenticated Users
+	7.3			-	Adding the Target in the View
+	7.4			-	Saving Data
+	7.5			-	A Bit of Optimization
+	7.6			-	Refactoring for Better Separation of Concerns
