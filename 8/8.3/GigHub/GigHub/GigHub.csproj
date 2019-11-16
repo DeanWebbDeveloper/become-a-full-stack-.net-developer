@@ -8,7 +8,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{D7FD8ABF-C1E8-47F4-955C-67BBEA2987BE}</ProjectGuid>
+    <ProjectGuid>{E4CA5273-0A14-4A79-8C0F-3F191E85555D}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -163,27 +163,6 @@
     <Reference Include="Microsoft.AspNet.TelemetryCorrelation">
       <HintPath>..\packages\Microsoft.AspNet.TelemetryCorrelation.1.0.0\lib\net45\Microsoft.AspNet.TelemetryCorrelation.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.ApplicationInsights">
-      <HintPath>..\packages\Microsoft.ApplicationInsights.2.5.1\lib\net46\Microsoft.ApplicationInsights.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.AI.Agent.Intercept">
-      <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.2.4.0\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.AI.DependencyCollector">
-      <HintPath>..\packages\Microsoft.ApplicationInsights.DependencyCollector.2.5.1\lib\net45\Microsoft.AI.DependencyCollector.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.AI.PerfCounterCollector">
-      <HintPath>..\packages\Microsoft.ApplicationInsights.PerfCounterCollector.2.5.1\lib\net45\Microsoft.AI.PerfCounterCollector.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.AI.ServerTelemetryChannel">
-      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.5.1\lib\net45\Microsoft.AI.ServerTelemetryChannel.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.AI.WindowsServer">
-      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.2.5.1\lib\net45\Microsoft.AI.WindowsServer.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.AI.Web">
-      <HintPath>..\packages\Microsoft.ApplicationInsights.Web.2.5.1\lib\net45\Microsoft.AI.Web.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
       <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
     </Reference>
@@ -201,25 +180,25 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201901301338127_InitialModel.cs" />
-    <Compile Include="Migrations\201901301338127_InitialModel.Designer.cs">
-      <DependentUpon>201901301338127_InitialModel.cs</DependentUpon>
+    <Compile Include="Migrations\201911051926297_InitialModel.cs" />
+    <Compile Include="Migrations\201911051926297_InitialModel.Designer.cs">
+      <DependentUpon>201911051926297_InitialModel.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201901301414367_CreateGigTable.cs" />
-    <Compile Include="Migrations\201901301414367_CreateGigTable.Designer.cs">
-      <DependentUpon>201901301414367_CreateGigTable.cs</DependentUpon>
+    <Compile Include="Migrations\201911051955543_CreateGigTable.cs" />
+    <Compile Include="Migrations\201911051955543_CreateGigTable.Designer.cs">
+      <DependentUpon>201911051955543_CreateGigTable.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201901301508302_OverrideConventionsForGigsAndGenres.cs" />
-    <Compile Include="Migrations\201901301508302_OverrideConventionsForGigsAndGenres.Designer.cs">
-      <DependentUpon>201901301508302_OverrideConventionsForGigsAndGenres.cs</DependentUpon>
+    <Compile Include="Migrations\201911052004168_OverrideConventionsForGigsAndGenres.cs" />
+    <Compile Include="Migrations\201911052004168_OverrideConventionsForGigsAndGenres.Designer.cs">
+      <DependentUpon>201911052004168_OverrideConventionsForGigsAndGenres.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201901301521185_PopulateGenresTable.cs" />
-    <Compile Include="Migrations\201901301521185_PopulateGenresTable.Designer.cs">
-      <DependentUpon>201901301521185_PopulateGenresTable.cs</DependentUpon>
+    <Compile Include="Migrations\201911052014527_PopulateGenresTable.cs" />
+    <Compile Include="Migrations\201911052014527_PopulateGenresTable.Designer.cs">
+      <DependentUpon>201911052014527_PopulateGenresTable.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201901311145372_AddForeignKeyPropertiesToGig.cs" />
-    <Compile Include="Migrations\201901311145372_AddForeignKeyPropertiesToGig.Designer.cs">
-      <DependentUpon>201901311145372_AddForeignKeyPropertiesToGig.cs</DependentUpon>
+    <Compile Include="Migrations\201911161055410_AddForeignKeyPropertiesToGig.cs" />
+    <Compile Include="Migrations\201911161055410_AddForeignKeyPropertiesToGig.Designer.cs">
+      <DependentUpon>201911161055410_AddForeignKeyPropertiesToGig.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -244,9 +223,6 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <Content Include="ApplicationInsights.config">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -311,20 +287,20 @@
     <Content Include="Scripts\jquery-3.3.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201901301338127_InitialModel.resx">
-      <DependentUpon>201901301338127_InitialModel.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201911051926297_InitialModel.resx">
+      <DependentUpon>201911051926297_InitialModel.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201901301414367_CreateGigTable.resx">
-      <DependentUpon>201901301414367_CreateGigTable.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201911051955543_CreateGigTable.resx">
+      <DependentUpon>201911051955543_CreateGigTable.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201901301508302_OverrideConventionsForGigsAndGenres.resx">
-      <DependentUpon>201901301508302_OverrideConventionsForGigsAndGenres.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201911052004168_OverrideConventionsForGigsAndGenres.resx">
+      <DependentUpon>201911052004168_OverrideConventionsForGigsAndGenres.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201901301521185_PopulateGenresTable.resx">
-      <DependentUpon>201901301521185_PopulateGenresTable.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201911052014527_PopulateGenresTable.resx">
+      <DependentUpon>201911052014527_PopulateGenresTable.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201901311145372_AddForeignKeyPropertiesToGig.resx">
-      <DependentUpon>201901311145372_AddForeignKeyPropertiesToGig.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201911161055410_AddForeignKeyPropertiesToGig.resx">
+      <DependentUpon>201911161055410_AddForeignKeyPropertiesToGig.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
@@ -343,9 +319,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>52113</DevelopmentServerPort>
+          <DevelopmentServerPort>57317</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:52113/</IISUrl>
+          <IISUrl>http://localhost:56789/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
