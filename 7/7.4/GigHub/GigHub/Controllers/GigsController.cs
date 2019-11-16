@@ -39,7 +39,7 @@ namespace GigHub.Controllers
             {
                 Artist = artist,
                 DateTime = DateTime.Parse(string.Format("{0} {1}", viewModel.Date, viewModel.Time)),
-                Genre =  genre,
+                Genre = genre,
                 Venue = viewModel.Venue
             };
 
@@ -47,7 +47,6 @@ namespace GigHub.Controllers
             _context.SaveChanges();
 
             return RedirectToAction("Index", "Home");
-
         }
     }
 }

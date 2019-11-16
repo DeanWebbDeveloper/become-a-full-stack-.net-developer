@@ -1,11 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27703.2042
+VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GigHub", "GigHub\GigHub.csproj", "{D7FD8ABF-C1E8-47F4-955C-67BBEA2987BE}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GigHub.Tests", "GigHub.Tests\GigHub.Tests.csproj", "{F8CB73E1-D067-499D-8107-97B33F169574}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GigHub", "GigHub\GigHub.csproj", "{E4CA5273-0A14-4A79-8C0F-3F191E85555D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,19 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D7FD8ABF-C1E8-47F4-955C-67BBEA2987BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D7FD8ABF-C1E8-47F4-955C-67BBEA2987BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D7FD8ABF-C1E8-47F4-955C-67BBEA2987BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D7FD8ABF-C1E8-47F4-955C-67BBEA2987BE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F8CB73E1-D067-499D-8107-97B33F169574}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F8CB73E1-D067-499D-8107-97B33F169574}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F8CB73E1-D067-499D-8107-97B33F169574}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F8CB73E1-D067-499D-8107-97B33F169574}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4CA5273-0A14-4A79-8C0F-3F191E85555D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4CA5273-0A14-4A79-8C0F-3F191E85555D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4CA5273-0A14-4A79-8C0F-3F191E85555D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4CA5273-0A14-4A79-8C0F-3F191E85555D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {61070970-1BF4-454C-9CFB-7FE713B7FC05}
+		SolutionGuid = {285E6E89-1697-42FF-BAD7-E3AADFA35701}
 	EndGlobalSection
 EndGlobal

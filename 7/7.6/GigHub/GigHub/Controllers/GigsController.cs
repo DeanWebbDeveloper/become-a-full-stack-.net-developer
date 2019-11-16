@@ -1,7 +1,6 @@
 ﻿using GigHub.Models;
 using GigHub.ViewModels;
 using Microsoft.AspNet.Identity;
-using System;
 using System.Linq;
 using System.Web.Mvc;
 
@@ -35,7 +34,7 @@ namespace GigHub.Controllers
             {
                 ArtistId = User.Identity.GetUserId(),
                 DateTime = viewModel.DateTime,
-                GenreId =  viewModel.Genre,
+                GenreId = viewModel.Genre,
                 Venue = viewModel.Venue
             };
 
@@ -43,7 +42,6 @@ namespace GigHub.Controllers
             _context.SaveChanges();
 
             return RedirectToAction("Index", "Home");
-
         }
     }
 }
